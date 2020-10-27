@@ -1497,7 +1497,20 @@ img {
     border-radius: 5px;
     transform: rotateY(180deg);
 }
-
+@media only screen and (max-width: 500px) {
+    .team-9 {
+      width: 100%;
+    }
+    .team-9 .team-content {
+      width: 100%;
+    }
+    .team-9 .team-img {
+      width: 100%;
+    }
+    .team-9 .team-overlay {
+        width: 100%;
+      }
+  }
 .team-9 .team-overlay p {
     font-size: 16px;
     font-weight: 400;
