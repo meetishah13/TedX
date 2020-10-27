@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Team - Meet the team</title>
+<<<<<<< HEAD
+    <link href="img/favicon.ico" rel="icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+        
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+=======
+>>>>>>> 34366ddc906b2bfb3e86fa071dd352e9f769afba
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #000;
+        }
+<<<<<<< HEAD
+       
+
+    #instance {
+=======
+        .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+        #instance {
+>>>>>>> 34366ddc906b2bfb3e86fa071dd352e9f769afba
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            display: -ms-flexbox;
+  
+           
+        }
+        #instance .demo {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            margin: 0;
+            border: none;
+        }
+        .btn-box {
+            text-align: center;
+        }
+        .btn {
+            margin: 20px 5px;
+            font-size: 20px;
+        }
+
+       
+        #row-container{
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+             flex-wrap: wrap;
+             top: 20px;
+             position: relative;
+            left: 5px;
+<<<<<<< HEAD
+            
+=======
+            flex-direction: column;
+>>>>>>> 34366ddc906b2bfb3e86fa071dd352e9f769afba
+            padding: 5px;
+            background-color: transparent;
+            margin: auto;
+            max-width: 1300px;
+
+        }
+        #instance3{
+            
+            background-color: #fff;
+            padding: 2px;
+             margin: 10px;
+          padding: 20px;
+          font-size: 30px;
+          width: 700px;
+            height: 300px;
+            display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+
+        }
+         
+        #column-container{
+            background-color:red;
+            padding: 1px;
+            font-size: 30px;   
+            position: relative;
+            width: 100%;
+            height: 100%;
+            font-size: 30px;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);   
+        }
+        #instance3:hover #column-container {
+            transform: rotateY(180deg);
+        }
+
+<<<<<<< HEAD
+=======
+
+        }
+         
+        #column-container{
+            background-color:red;
+            padding: 1px;
+            font-size: 30px;   
+            position: relative;
+            width: 100%;
+            height: 100%;
+            font-size: 30px;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);   
+        }
+        #instance3:hover #column-container {
+            transform: rotateY(180deg);
+        }
+
+>>>>>>> 34366ddc906b2bfb3e86fa071dd352e9f769afba
+        .flip-front, .flip-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .flip-front {
+            background-color: #2980b9;
+            color: white;
+            
+        }
+
+        .flip-back {
+            transform: rotateY(180deg);
+            background-color: #bbb;
+            color: black;
+            display:flex;
+        }
+        .flip-back > #column-container-content{
+            background-color: green;
+            padding: 2px;
+             margin: 10px;
+          padding: 20px;
+<<<<<<< HEAD
+          position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+        }
+
+        @media (min-width: 576px) {
+    .column-container-content {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .column-container-content {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .column-container-content {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+=======
+            flex-direction: column;
+        }
+>>>>>>> 34366ddc906b2bfb3e86fa071dd352e9f769afba
+       
+    </style>
+</head>
+<body>
+    
+    <div id="instance">
+        <div class="demo"></div>
+        
+    </div>
+<<<<<<< HEAD
+    <div class="container">
+        <div class="section-title">
+            <h2>Designed by <a style="color: blue;" href="https://htmlcodex.com">HTML Codex</a></h2>
+            <h1>Team #1</h1>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="team-1">
+                    <div class="team-img">
+                        <img src="img/team-2-1.jpg" alt="Team Image">
+                    </div>
+                    <div class="team-content">
+                        <h2>Josh Dunn</h2>
+                        <h3>CEO &amp; Founder</h3>
+                        <p>Some text goes here that describes about team member</p>
+                        <h4>example@example.com</h4>
+                        <div class="team-social">
+                            <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="social-yt" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="team-1">
+                    <div class="team-img">
+                        <img src="img/team-2-2.jpg" alt="Team Image">
+                    </div>
+                    <div class="team-content">
+                        <h2>Mollie Ross</h2>
+                        <h3>Art Director</h3>
+                        <p>Some text goes here that describes about team member</p>
+                        <h4>example@example.com</h4>
+                        <div class="team-social">
+                            <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="social-yt" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="team-1">
+                    <div class="team-img">
+                        <img src="img/team-2-3.jpg" alt="Team Image">
+                    </div>
+                    <div class="team-content">
+                        <h2>Dylan Adams</h2>
+                        <h3>Developer</h3>
+                        <p>Some text goes here that describes about team member</p>
+                        <h4>example@example.com</h4>
+                        <div class="team-social">
+                            <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="social-yt" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="team-1">
+                    <div class="team-img">
+                        <img src="img/team-2-4.jpg" alt="Team Image">
+                    </div>
+                    <div class="team-content">
+                        <h2>Jennifer Page</h2>
+                        <h3>Designer</h3>
+                        <p>Some text goes here that describes about team member</p>
+                        <h4>example@example.com</h4>
+                        <div class="team-social">
+                            <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="social-yt" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- Team #1 End -->
+    <div class="container">
+        <div class="section-title">
+            <h1>Team #4</h1>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="team-4">
+                    <div class="team-content">
+                        <h2>Josh Dunn</h2>
+                        <h3>CEO &amp; Founder</h3>
+                    </div>
+                    <div class="team-img">
+                        <img src="img/team-1-1.jpg" alt="Team Image">
+                        <div class="team-content">
+                            <p>Some text goes here that describes about team member</p>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <div class="team-social">
+                            <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="social-yt" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="team-4">
+                    <div class="team-content">
+                        <h2>Mollie Ross</h2>
+                        <h3>Art Director</h3>
+                    </div>
+                    <div class="team-img">
+                        <img src="img/team-1-2.jpg" alt="Team Image">
+                        <div class="team-content">
+                            <p>Some text goes here that describes about team member</p>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <div class="team-social">
+                            <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="social-yt" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="team-4">
+                    <div class="team-content">
+                        <h2>Dylan Adams</h2>
+                        <h3>Developer</h3>
+                    </div>
+                    <div class="team-img">
+                        <img src="img/team-1-3.jpg" alt="Team Image">
+                        <div class="team-content">
+                            <p>Some text goes here that describes about team member</p>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <div class="team-social">
+                            <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="social-yt" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="team-4">
+                    <div class="team-content">
+                        <h2>Jennifer Page</h2>
+                        <h3>Designer</h3>
+                    </div>
+                    <div class="team-img">
+                        <img src="img/team-1-4.jpg" alt="Team Image">
+                        <div class="team-content">
+                            <p>Some text goes here that describes about team member</p>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <div class="team-social">
+                            <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="social-yt" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- <div id="row-container">
+=======
+    <div id="row-container">
+>>>>>>> 34366ddc906b2bfb3e86fa071dd352e9f769afba
+        <div id="instance3">
+            <div id="column-container"> 
+                
+                    <div class="flip-front">
+                        <h2>Curators Team</h2>
+                    </div> 
+                    <div class="flip-back">
+                        <div id="column-container-content"> 
+                            <h2>Try</h2>
+                        </div>
+                        <div id="column-container-content">
+                            <h2>Try</h2>
+                        </div>
+                      
+                        
+                    </div>    
+
+            </div>
+
+             
+
+        </div>
+        <div id="instance3">
+            
+        </div>
+        <div id="instance3">
+            <div id="column-container">
+                <div id="column-container-content"> <h2>Try</h2></div>
+            </div>
+        </div>
+
+    </div> -->
+    <script src="production/jparticles.js"></script>
+    <script src="production/particle.js"></script>
+    <script src="js/event.js"></script>
+    <script>
+        bind('#instance', function () {
+            return new JParticles.particle('#instance .demo', {
+                color: '#5cbdaa',
+                range: 2000,
+                proximity: 100,
+                parallax: true
+            });
+        });
+
+        bind('#instance2', function () {
+            return new JParticles.particle('#instance2 .demo', {
+                parallax: true,
+                parallaxStrength: 1,
+
+                // 定义四层粒子
+                parallaxLayer: [1, 3, 5, 7]
+            });
+        });
+
+        // 固定定位测试
+        bind('#instance3', function () {
+            return new JParticles.particle('#instance3 .demo', {
+                lineShape: 'cube',
+                range: 120,
+                parallax: true,
+                parallaxStrength: 1
+            });
+        });
+        function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
+</body>
+</html>
