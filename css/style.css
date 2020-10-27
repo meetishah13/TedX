@@ -284,6 +284,7 @@ img {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+    justify-content: center;
 }
 
 .column {
@@ -333,11 +334,11 @@ img {
     width: 50px;
     height: 5px;
     left: calc(50% - 25px);
-    background: #353535;
+    background: white;
 }
 
 .section-title h1 {
-    color: #353535;
+    color: white;
     font-size: 50px;
     letter-spacing: 5px;
     margin-bottom: 5px;
@@ -1576,11 +1577,13 @@ img {
     text-align: center;
     margin-bottom: 30px;
     border-radius: 5px;
+    justify-content: center;
 }
 
 .team-10 .team-img {
     border-radius: 5px;
     overflow: hidden;
+    justify-content: center;
 }
 
 .team-10 .team-img img {
@@ -1599,6 +1602,7 @@ img {
     transition: transform 0.6s;
     transform-style: preserve-3d;
     border-radius: 5px;
+    justify-content: center;
 }
 
 .team-10:hover .team-content {
@@ -1621,6 +1625,7 @@ img {
     background: #ffffff;
     border-radius: 5px;
     transform: rotateY(180deg);
+    justify-content: center;
 }
 
 .team-10 .team-content h2 {
